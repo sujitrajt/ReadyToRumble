@@ -79,13 +79,13 @@ const spin = () => {
         }
     }
     return reels;
-    console.log(symbols)
+    // console.log(symbols)
 }
 
 let balance = deposit();
 
 const numberOfLines = getNumberOfLines();
 const betAmt = getBet(balance,numberOfLines);
-console.log(betAmt);
+// console.log(betAmt);
 const reels = spin();
-console.log("reels",reels)
+// console.log("reels",reels)
